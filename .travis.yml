@@ -7,9 +7,11 @@ node_js:
   - "12"
 # 安装依赖的 命令 可以直接写命令 也可以 直接用shell脚本执行
 # Node 项目的install和script 但是这个步骤为了更方便看 将步骤写了出来
-install: ./install.sh
+install:
+  - sh deploy/install.sh
   # - npm install
-script: ./script.sh
+script: 
+  - sh deploy/script.sh
   # - npm run build
 
 # before_install：install 阶段之前执行
