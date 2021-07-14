@@ -1,5 +1,7 @@
 # hxc-ui
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/04d31b4a-979e-4e29-970b-e769f41130df/deploy-status)](https://app.netlify.com/sites/sulinehk/deploys)
+
 ## Project setup
 ```
 yarn install
